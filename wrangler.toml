@@ -1,6 +1,4 @@
-name = "limit8less-com"
+name = "cloudflare-limit8less-com"
 compatibility_date = "2025-10-25"
 compatibility_flags = ["nodejs_compat"]
-
-[pages]
 pages_build_output_dir = ".vercel/output/static"

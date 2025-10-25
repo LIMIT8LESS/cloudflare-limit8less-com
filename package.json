@@ -9,7 +9,8 @@
     "lint": "eslint",
     "cf:build": "next-on-pages",
     "cf:preview": "npm run cf:build && wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat",
-    "cf:deploy": "npm run cf:build && wrangler pages deploy .vercel/output/static"
+    "cf:deploy": "npm run cf:build && wrangler pages deploy .vercel/output/static",
+    "deploy": "npm run cf:deploy"
   },
   "dependencies": {
     "next": "15.5.2",
